@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{title}">Aplicación</title>
+</head>
+<body>
+<h1 th:text="#{welcome.message}">Bienvenido</h1>
+
+<p style="color:red;" th:text="#{error.message}">
+    Ocurrió un error inesperado.
+</p>
+
+<p>
+    <a href="/?lang=es">Español</a> |
+    <a href="/?lang=en">English</a>
+</p>
+</body>
+</html>
+
